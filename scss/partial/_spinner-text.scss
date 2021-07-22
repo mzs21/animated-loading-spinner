@@ -1,0 +1,13 @@
+.spinner-text{
+    grid-column: 4/-4;
+    grid-row: 4/-4;
+    text-align: center;
+
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+
+    animation: loading-opacity 3s ease-in-out infinite;
+
+    text-transform: uppercase;
+}
